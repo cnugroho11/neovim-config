@@ -14,6 +14,8 @@ return require('packer').startup(function(use)
 	use ('akinsho/toggleterm.nvim')
 	use ('nvim-lualine/lualine.nvim')
 	use ('mrjones2014/smart-splits.nvim')
+	use ('numToStr/Comment.nvim')
+	use ('folke/trouble.nvim')
 	use {
 		'akinsho/bufferline.nvim', 
 		tag = "v3.*", 
