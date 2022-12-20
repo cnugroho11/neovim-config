@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/cnugroho/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/home/cnugroho/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/cnugroho/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -118,6 +123,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cnugroho/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/cnugroho/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
@@ -183,6 +193,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cnugroho/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["smart-splits.nvim"] = {
+    loaded = true,
+    path = "/home/cnugroho/.local/share/nvim/site/pack/packer/start/smart-splits.nvim",
+    url = "https://github.com/mrjones2014/smart-splits.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

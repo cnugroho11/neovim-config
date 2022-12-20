@@ -12,6 +12,13 @@ return require('packer').startup(function(use)
 	use ('fatih/vim-go')
 	use ('windwp/nvim-autopairs')
 	use ('akinsho/toggleterm.nvim')
+	use ('nvim-lualine/lualine.nvim')
+	use ('mrjones2014/smart-splits.nvim')
+	use {
+		'akinsho/bufferline.nvim', 
+		tag = "v3.*", 
+		requires = 'nvim-tree/nvim-web-devicons'
+	}
 	use {
 		"nvim-neo-tree/neo-tree.nvim",
 		branch = "v2.x",
