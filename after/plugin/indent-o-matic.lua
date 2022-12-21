@@ -11,6 +11,10 @@ require('indent-o-matic').setup {
         standard_widths = { 4 },
     },
 
+    filetype_dart = {
+        standard_widths = { 2 }
+    },
+
     filetype_ = {
         standard_widths = { 2, 4 },
     },

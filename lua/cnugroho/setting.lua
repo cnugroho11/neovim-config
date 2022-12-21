@@ -5,3 +5,6 @@ vim.opt.expandtab = true
 vim.opt.nu = true
 vim.cmd("set cursorline")
 
+-- autoformat on save
+vim.cmd [[autocmd BufWritePre * lua vim.lsp.buf.format()]]
+
