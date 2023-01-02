@@ -20,6 +20,10 @@ return require('packer').startup(function(use)
 	use ('Shatur/neovim-session-manager')
 	use ('folke/which-key.nvim')
 	use {'akinsho/flutter-tools.nvim', requires = 'nvim-lua/plenary.nvim'}
+	use({
+		'weilbith/nvim-code-action-menu',
+		cmd = 'CodeActionMenu',
+	})
 	use {
 		'akinsho/bufferline.nvim', 
 		tag = "v3.*", 

@@ -119,4 +119,4 @@ require('neo-tree').setup {
     },
 }
 
-vim.keymap.set("n", "<leader>e", vim.cmd.NeoTreeFocusToggle)
+vim.keymap.set("n", "<leader>e", vim.cmd.NeoTreeFocusToggle, { desc = "Open file explore" })

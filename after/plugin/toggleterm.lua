@@ -21,4 +21,4 @@ require("toggleterm").setup {
     },
 }
 
-vim.keymap.set("n", "<leader>th", vim.cmd.ToggleTerm)
+vim.keymap.set("n", "<leader>th", vim.cmd.ToggleTerm, { desc = "Show terminal" })
