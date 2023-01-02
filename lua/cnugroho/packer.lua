@@ -15,8 +15,10 @@ return require('packer').startup(function(use)
 	use ('nvim-lualine/lualine.nvim')
 	use ('mrjones2014/smart-splits.nvim')
 	use ('numToStr/Comment.nvim')
-	use ('dart-lang/dart-vim-plugin')
 	use ('lukas-reineke/indent-blankline.nvim')
+	use ('famiu/bufdelete.nvim')
+	use ('Shatur/neovim-session-manager')
+	use ('folke/which-key.nvim')
 	use {'akinsho/flutter-tools.nvim', requires = 'nvim-lua/plenary.nvim'}
 	use {
 		'akinsho/bufferline.nvim', 
